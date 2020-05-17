@@ -11,5 +11,8 @@ It only does scatter plots right now okay don't @ me
 
 
 ```
+library(devtools)
+install_github("RowanDurrant/horrible.plots")
+library(horrible.plots)
 horrible_plots(x,y, xlab = "time", ylab = "awfulness", main = "why")
 ```
