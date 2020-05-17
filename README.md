@@ -1,5 +1,4 @@
-# horrible.plots
-R package for making really awful plots
+# horrible.plots: an R package for making really awful scatter plots
 
 Have you ever wanted to make just an awful looking plot? Well this package is for you!
 
