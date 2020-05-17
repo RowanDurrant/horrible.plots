@@ -8,3 +8,8 @@ complete with randomised colours, sizes and fonts.
 
 
 It only does scatter plots right now okay don't @ me
+
+
+```
+horrible_plots(x,y, xlab = "time", ylab = "awfulness", main = "why")
+```
