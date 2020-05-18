@@ -16,7 +16,7 @@ install_github("RowanDurrant/horrible.plots")
 Make your own horrible plot:
 ```
 library(horrible.plots)
-x = 1:10
+x = 1:5
 y = x^2
 horrible_plots(x,y, xlab = "time", ylab = "awfulness", main = "why")
 ```
