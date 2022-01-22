@@ -32,3 +32,5 @@ Just a flavour of what it makes:
 
 ![sample of scatter plot generated using this package](https://github.com/RowanDurrant/horrible.plots/blob/master/sample%20plot.png?raw=true)
 ![sample of pie chart generated using this package](https://github.com/RowanDurrant/horrible.plots/blob/master/horrible%20pie%20chart.png?raw=true)
+
+If your first result isn't horrible enough just keep plotting, it's randomised
