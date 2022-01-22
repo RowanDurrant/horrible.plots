@@ -26,6 +26,7 @@ Now with added pie charts, the most horrible type of chart:
 x = c(32,3,15,50)
 labels = c("ew","why","get a better plot", "i hate this")
 horrible_pie(x, labels = labels, main = "how bad of an idea was this")
+```
 
 Just a flavour of what it makes:
 
