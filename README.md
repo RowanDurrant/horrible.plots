@@ -20,6 +20,7 @@ x = 1:5
 y = x^2
 horrible_scatter(x,y, xlab = "time", ylab = "awfulness", main = "why")
 ```
+![sample of scatter plot generated using this package](https://github.com/RowanDurrant/horrible.plots/blob/master/sample%20plot.png?raw=true)
 
 Now with added pie charts, the most horrible type of chart:
 ```
@@ -27,10 +28,5 @@ x = c(32,3,15,50)
 labels = c("ew","why","get a better plot", "i hate this")
 horrible_pie(x, labels = labels, main = "how bad of an idea was this")
 ```
-
-Just a flavour of what it makes:
-
-![sample of scatter plot generated using this package](https://github.com/RowanDurrant/horrible.plots/blob/master/sample%20plot.png?raw=true)
 ![sample of pie chart generated using this package](https://github.com/RowanDurrant/horrible.plots/blob/master/horrible%20pie%20chart.png?raw=true)
 
-If your first result isn't horrible enough just keep plotting, it's randomised
