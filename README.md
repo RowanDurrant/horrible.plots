@@ -6,8 +6,6 @@ Supply this machine with data, axis labels and a title and it will spit out one 
 complete with randomised colours, sizes and fonts.
 
 
-It only does scatter plots right now okay don't @ me
-
 How to install:
 ```
 library(devtools)
