@@ -6,8 +6,6 @@ Supply this machine with data, axis labels and a title and it will spit out one 
 complete with randomised colours, sizes and fonts.
 
 
-It only does scatter plots right now okay don't @ me
-
 How to install:
 ```
 library(devtools)
@@ -18,9 +16,15 @@ Make your own horrible plot:
 library(horrible.plots)
 x = 1:5
 y = x^2
-horrible_plots(x,y, xlab = "time", ylab = "awfulness", main = "why")
+horrible_scatter(x,y, xlab = "time", ylab = "awfulness", main = "why")
 ```
+![sample of scatter plot generated using this package](https://github.com/RowanDurrant/horrible.plots/blob/master/sample%20plot.png?raw=true)
 
-Just a flavour of what it makes:
+Now with added pie charts, the most horrible type of chart:
+```
+x = c(32,3,15,50)
+labels = c("ew","why","get a better plot", "i hate this")
+horrible_pie(x, labels = labels, main = "how bad of an idea was this")
+```
+![sample of pie chart generated using this package](https://github.com/RowanDurrant/horrible.plots/blob/master/horrible%20pie%20chart.png?raw=true)
 
-![sample of plot generated using this package](https://github.com/RowanDurrant/horrible.plots/blob/master/sample%20plot.png?raw=true)
